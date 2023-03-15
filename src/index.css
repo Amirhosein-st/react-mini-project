@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Starwars';
+  font-style: normal;
+  src: url("resources/Fonts/starjedi/Starjedi.ttf");
+  src: url("resources/Fonts/starjedi/Starjedi.ttf") format("ttf"),
+}
+
+::selection {
+  background-color:  #d23b2496;
+  color:  aqua;
+}
+
+body {
+  font-family: 'Starwars';
+}

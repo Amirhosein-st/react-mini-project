@@ -1,0 +1,44 @@
+body{
+  background-image: url("../../resources/Images/starwars.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 94vh;
+  height: auto;
+}
+
+.page-body{
+  width: 1400px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagination {
+  font-family: 'Starwars';
+}
+
+.pagination-next-btn ,
+.pagination-perv-btn {
+  width: 100px;
+  height: 28px;
+  font-family: 'Starwars';
+  background-color: rgba(255, 242, 225, 0.519);
+  margin: 0 50px;
+  transform: scale(1);
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.pagination-next-btn:hover ,
+.pagination-perv-btn:hover {
+  transform: scale(1.2);
+}
+
+.pagination-num {
+  color: white;
+  font-size: 18px;
+  cursor: default;
+}
